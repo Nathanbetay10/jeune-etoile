@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.langue{
+    background-color: white;
+}
+
+.langue .container{
+    display: flex;
+    justify-content: right;
+}
+
+.langue .container h5 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.langue .container h5 a:hover{
+    border-top: 3px solid brown;
+    padding-top: 5px;
+}
+
+.header1{
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header1 .hleft .nav-link{
+    color: white;
+}
+
+.header1 .hleft .nav-link:hover{
+    color: white;
+}
+
+.header1 .hleft span{
+    border-bottom: yellow 2px solid;
+    color: white;
+    font-weight: 600;
+}
+
+.header1 .hleft i{
+    color: yellow;
+}
+
+.header1 .hright .container{
+    display: flex;
+}
+
+.header1 .hright .nav-l{
+    color: white;
+    border: 3px solid white;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.header1 .hright .nav-l:hover{
+    background-color: white;
+    color: brown;
+}
+
+.header1 .hright .don{
+    background-color: white;
+    color: blue;
+    font-weight: 600;
+}
+
+.header1 nav{
+    margin-top: 10px;
+}
+
+.header1 nav a{
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.header2{
+    background-color: azure;
+}
+
+.header2 nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.header2 .onglet a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 7px;
+}
+
+.header2 .onglet a:hover{
+    transform: scale(90%);
+    transition: 0.5s;
+    color: blueviolet;
+}
+
+.onglet a{
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.pour{
+    background-color: whitesmoke;
+    padding-bottom: 30px;
+}
+
+.pour .choix{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pour .choix h1{
+    padding-left: 185px;
+}
+
+.pour .choix select{
+    margin-top: 5px;
+    border: 0.5px solid rebeccapurple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 8px;
+    color: brown;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.pour .card{
+    flex-wrap: wrap;
+}
+
+.pour .card-body h5{
+    padding-top: 40px;
+}
+
+.pour .card-body h5 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.travail{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.travail .row{
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.travail h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.travail h5{
+    text-align: center;
+    max-width: 900px;
+    padding-left: 250px;
+    padding-bottom: 80px;
+    color: black;
+}
+
+.travail i{
+    padding-left: 140px;
+    font-size: 80px;
+    color: brown;
+}
+
+.travail p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.travail a{
+    text-decoration: none;
+    color: brown;
+}
+
+.travail button a{
+    color: white;
+}
+
+.travail button{
+    margin-left: 460px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.projecteur{
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+}
+
+.projecteur .card{
+    flex-wrap: wrap;
+}
+
+.projecteur h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.projecteur h5{
+    text-align: center;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.projecteur .card-body h4 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.projecteur .card h4{
+    padding-top: 80px;
+}
+
+.agir{
+    background-color: black;
+}
+
+.agir img{
+    width: 100%;
+}
+
+.agir .col-4{
+    padding: 100px 80px;
+}
+
+.agir .col-4 h2, h5{
+    color: white;
+}
+
+.agir .col-4 h2{
+    font-size: 40px;
+}
+
+.agir .col-4 h5{
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+footer{
+    background-color: royalblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+footer h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer h5{
+    font-size: 16px;
+}
+
+footer .contact{
+    display: flex;
+    margin-top: 20px;
+}
+
+footer .contact h6{
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+footer .reseau{
+    display: flex;
+    margin-top: 20px;
+}
+
+footer .reseau i{
+    color: white;
+    margin: 8px;
+}
